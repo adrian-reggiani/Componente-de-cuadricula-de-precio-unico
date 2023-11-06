@@ -1,0 +1,132 @@
+:root{
+    /* Primary */
+    --Cyan: hsl(179, 62%, 43%);
+    --Letra: hsl(180, 24%, 73%);
+    --Bright-Yellow: hsl(71, 73%, 54%);
+
+    /* Neutral*/
+
+    --Light-Gray: hsl(204, 43%, 93%);
+    --Grayish-Blue: hsl(218, 22%, 67%);
+
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  body{
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(206, 44%, 93%);
+  }
+  
+  main{
+    margin:  3.5rem 2.5rem 0;
+  }
+
+  .bloque1{
+    background-color: white;
+    border-radius: 0.3rem;
+    padding: 1rem;
+    height:13rem ;
+    width: 85%;
+    margin: auto;
+  }
+  
+  .bloque1 h2{
+    color: var(--Cyan);
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+  }
+
+  .bloque1__subtiulo{
+    color: var(--Bright-Yellow);
+    font-weight: bold;
+    font-size: 0.8rem;
+  }
+  .bloque1__parrafo{
+    color: var(--Grayish-Blue);
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1.3rem;
+  }
+
+  .bloque2{
+    background-color: var(--Cyan);
+    border-radius: 0.3rem;
+    padding: 1rem;
+    height: 13rem;
+    width: 85%;
+    margin: auto;
+  }
+
+  .bloque2 h3{
+    color: white;
+    font-size: 0.9rem;
+    margin: 0.3rem 0 1rem 0;
+  }
+
+  .bloque2 span{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: 0.5rem;
+  }
+
+  .bloque2 p{
+    color: var(--Letra);
+    margin: 0.5rem 0; 
+    
+  }
+
+  .bloque2__boton{
+    width:100%;
+    height: 2rem;
+    color: white;
+    background-color: var(--Bright-Yellow);
+    border: none;
+    border-radius: 0.2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .bloque2__parrafo{
+    color:white;
+    font-size: 0.8rem;
+  }
+
+  .bloque3{
+    background-color:hsl(179, 47%, 52%);
+    border-radius: 0.3rem;
+    padding: 1rem;
+    height: 13rem;
+    width: 85%;
+    margin: auto;
+    color: white;
+  }
+
+  .bloque3 h3{
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .bloque3 p {
+    font-weight: 400;
+    color:white;
+    font-size: 0.8rem;
+    padding-right:4rem;
+    line-height: 1.2rem;
+  }
+
+  /* Medias Queris */
+
+  @media  (min-width:720px){
+   main{
+    display: grid;
+   }
+   }
